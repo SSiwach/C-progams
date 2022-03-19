@@ -1,0 +1,37 @@
+===== BEGIN MILESTONES =====
+0x9c1f0d0 2017/09/18 13:19:14.2737 (USER): debug log dumped due to signal 11
+===== END MILESTONES =====
+===== BEGIN RING BUFFER =====
+0x9c1f0d0 2017/09/18 13:16:37.1084 (USER): window 0x9cbd840 open location: old="(none)", new="x-nautilus-desktop:"
+0x9c1f0d0 2017/09/18 13:16:39.5340 (USER): finished loading window 0x9cbd840: x-nautilus-desktop:
+0x9c1f0d0 2017/09/18 13:16:40.6091 (USER): selection changed in window 0x9cbd840
+	x-nautilus-desktop:///home
+0x9c1f0d0 2017/09/18 13:16:40.7888 (USER): fm_directory_view_activate_files window=0x9cbd840
+	x-nautilus-desktop:///home
+0x9c1f0d0 2017/09/18 13:16:40.7905 (USER): directory view open_location window=0x9cbd840: file:///home/mscf17_mahipal_1613903
+0x9c1f0d0 2017/09/18 13:16:40.7905 (USER): window 0x9cbd840 open location: old="x-nautilus-desktop:", new="file:///home/mscf17_mahipal_1613903"
+0x9c1f0d0 2017/09/18 13:16:40.7981 (USER): window 0x9ed0010 open location: old="(none)", new="file:///home/mscf17_mahipal_1613903"
+0x9c1f0d0 2017/09/18 13:16:40.7983 (USER): present NEW spatial window=0x9ed0010: file:///home/mscf17_mahipal_1613903
+0x9c1f0d0 2017/09/18 13:16:41.1077 (USER): finished loading window 0x9ed0010: file:///home/mscf17_mahipal_1613903
+0x9c1f0d0 2017/09/18 13:16:58.2579 (USER): selection changed in window 0x9ed0010
+	file:///home/mscf17_mahipal_1613903/rpp3.c
+0x9c1f0d0 2017/09/18 13:16:58.5618 (USER): fm_directory_view_activate_files window=0x9ed0010
+	file:///home/mscf17_mahipal_1613903/rpp3.c
+0x9c1f0d0 2017/09/18 13:16:58.5627 (USER): fm_directory_view_launch_application window=0x9ed0010
+	file:///home/mscf17_mahipal_1613903/rpp3.c
+0x9c1f0d0 2017/09/18 13:17:48.4590 (USER): selection changed in window 0x9cbd840
+	file:///home/mscf17_mahipal_1613903/Desktop/gnome-terminal.desktop
+0x9c1f0d0 2017/09/18 13:17:48.6298 (USER): fm_directory_view_activate_files window=0x9cbd840
+	file:///home/mscf17_mahipal_1613903/Desktop/gnome-terminal.desktop
+0x9c1f0d0 2017/09/18 13:17:48.6300 (USER): directory view activate_callback launch_desktop_file window=0x9cbd840: file:///home/mscf17_mahipal_1613903/Desktop/gnome-terminal.desktop
+0x9c1f0d0 2017/09/18 13:19:14.2737 (USER): debug log dumped due to signal 11
+===== END RING BUFFER =====
+
+
+This configuration for the debug log can be re-created
+by putting the following in ~/nautilus-debug-log.conf
+(use ';' to separate domain names):
+
+
+[debug log]
+max lines=1000

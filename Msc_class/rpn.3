@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<math.h>
+float f(float x,float y)
+{
+return(pow(x,3)+pow(y,3)+x*y+1);
+}
+float g(float x,float y)
+{
+return(3*y*y+x);
+}
+main()
+{
+float x,y,h;
+for(x=-1.5;x<=1.5;x+=0.1)
+{
+for(y=-2.0;y<=2.0;y+=0.1)
+{
+do
+{
+h=-f(y)/g(y);
+y=y+h;
+}
+while(fabs(h/y)>0.000001);
+printf("root=%f		f(x,y)=%f",y,f(x,y)
+}
+}
+}

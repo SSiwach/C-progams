@@ -1,0 +1,69 @@
+iven.</choice>
+						</choices>
+					</screen>
+					<screen type="FILL_IN">
+						<explanation_path>assets/q_s4/quantity_s4_e8.png</explanation_path>
+						<footer>For each blank select one entry from the corresponding column of choices.</footer>
+						<image>assets/q_s4/quantity_s4_q8.png</image>		
+						<prefix/>
+						<suffix>square units</suffix>
+						<correctAnswer>120</correctAnswer>
+						<acceptDecimal>false</acceptDecimal>
+						<acceptNegative>false</acceptNegative>
+						<maxChars>3</maxChars>
+					</screen>
+					<screen type="MULTIPLE_CHOICE">
+						<explanation_path>assets/q_s4/quantity_s4_e9.png</explanation_path>
+						<footer>For each blank select one entry from the corresponding column of choices.</footer>
+						<mode>RADIO_BUTTON</mode>
+						<image>assets/q_s4/quantity_s4_q9.png</image>
+						<correctAnswerIndex>0</correctAnswerIndex>
+						<choices>
+							<choice>15</choice>
+							<choice>17</choice>
+							<choice>19</choice>
+							<choice>21</choice>
+							<choice>24</choice>
+						</choices>
+					</screen>
+					<screen type="MULTIPLE_CHOICE">
+						<explanation_path>assets/q_s4/quantity_s4_e10.png</explanation_path>
+						<footer>For each blank select one entry from the corresponding column of choices.</footer>
+						<mode>RADIO_BUTTON</mode>
+						<image>assets/q_s4/quantity_s4_q10.png</image>
+						<correctAnswerIndex>2</correctAnswerIndex>
+						<choices>
+							<choice><![CDATA[<i>y</i> = -4<i>x</i> + 2]]></choice>
+							<choice><![CDATA[<i>y</i> = -2<i>x</i> + 4]]></choice>
+							<choice><![CDATA[<i>y</i> = 2<i>x</i> - 4]]></choice>
+							<choice><![CDATA[<i>y</i> = 2<i>x</i> + 4]]></choice>
+							<choice><![CDATA[<i>y</i> = 4<i>x</i> + 2]]></choice>
+						</choices>
+					</screen>
+					<screen type="MULTIPLE_CHOICE">
+						<explanation_path>assets/q_s4/quantity_s4_e11.png</explanation_path>
+						<footer>For each blank select one entry from the corresponding column of choices.</footer>
+						<mode>RADIO_BUTTON</mode>
+						<image>assets/q_s4/quantity_s4_q11.png</image>
+						<correctAnswerIndex>1</correctAnswerIndex>
+						<choices>
+							<choice><![CDATA[<i>x</i> + 2<i>y</i> + 3<i>z</i>]]></choice>
+							<choice><![CDATA[<i>xyz</i>]]></choice>
+							<choice><![CDATA[2<i>xyz</i>]]></choice>
+							<choice><![CDATA[<i>x</i>(<i>y</i> + <i>z</i>)]]></choice>
+							<choice><![CDATA[(<i>x</i> + 1)(<i>z</i> - <i>y</i>)]]></choice>
+						</choices>
+					</screen>
+					<screen type="MULTIPLE_CHOICE">
+						<explanation_path>assets/q_s4/quantity_s4_e12.png</explanation_path>
+						<footer>For each blank select one entry from the corresponding column of choices.</footer>
+						<mode>RADIO_BUTTON</mode>
+						<image>assets/q_s4/quantity_s4_q12.png</image>
+						<correctAnswerIndex>1</correctAnswerIndex>
+						<choices>
+							<choice><![CDATA[0]]></choice>
+							<choice><![CDATA[1]]></choice>
+							<choice><![CDATA[2]]></choice>
+							<choice><![CDATA[3]]></choice>
+							<choice><![CDATA[4]]></choice>
+						</cho
