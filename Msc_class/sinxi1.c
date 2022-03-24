@@ -11,8 +11,9 @@ main()
   x2 = x2*pi;
   dx = (x2-x1)/(float)(n);
   for(i=0; i<=n; i++)
-    {x = x1 + i * dx;
-      y =sin(x);
-      printf("%6.2f %6.2f\n" , x , y);
+    {
+        x = x1 + i * dx;
+        y =sin(x);
+        printf("%6.2f %6.2f\n" , x , y);
     }
 }
