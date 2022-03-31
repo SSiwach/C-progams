@@ -3,11 +3,12 @@
 #include<math.h>
 float f(float A, float N, float Z)
 {
-	float n,a;
+	float n,m,a;
 	float OE;
 	n = pow(A,-0.3333);
+	m = pow(A,-0.6666);
 	a = (1+((N-Z)/(3*A)));
-	OE = 41*n*a;
+	OE = 45*n-25*m;
 	
 	return(OE);
 }
