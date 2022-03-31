@@ -23,7 +23,7 @@ float g(float A, float N, float Z)
 }
 float main() 
 {
-    float A,N,Z;
+    float A,N,Z,E;
     float W;
     FILE *fp=NULL;
     fp=fopen("Oscillator_strength.txt","w");
@@ -35,6 +35,10 @@ float main()
     { 
         printf("Value of Oscillator strength : %f  for A : %f\n",f(A),A);
         fprintf(fp,"Value of Oscillator strength : %f  for A : %f\n",f(A),A);
+	for(N = 0;N<10;N++)
+	{
+		E = (N+1.5)*f(A)
+	}
     }
     return 0;
 }
