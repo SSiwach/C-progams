@@ -1,3 +1,4 @@
+//program to calculate value of different function and between intervals
 /* program to find the value of a fuction f(x,y) between -1 and 1 */
 #include<stdio.h>
 #include<math.h>
