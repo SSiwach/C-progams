@@ -1,4 +1,6 @@
 //program to find the root of an equation by using Newton Ralphson method.
+
+
 #include<stdio.h>
 #include<math.h>
 float f(float x)
